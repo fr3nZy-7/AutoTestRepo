@@ -10,6 +10,8 @@ public class Function2 {
 		
 		System.out.println(add1);
 		System.out.println(add2);
+		
+		System.out.println(add1+add2);
 
 	}
 
