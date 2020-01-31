@@ -29,7 +29,11 @@ public class User {
 		vw.model = "Polo GT Tsi";
 		//vw.wheels = 4;
 		vw.features();
-
+		
+		
+		Car bmw = new Car("White","Z8");
+		bmw.features();
+		
 	}
 
 }
