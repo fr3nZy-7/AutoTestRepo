@@ -26,6 +26,7 @@ public class User {
 		
 		Car vw = new Car();
 		vw.colour = "Green";
+		Car.wheels =4;
 		vw.model = "Polo GT Tsi";
 		//vw.wheels = 4;
 		vw.features();
