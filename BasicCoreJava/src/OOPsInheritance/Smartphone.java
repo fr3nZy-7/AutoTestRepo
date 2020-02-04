@@ -6,5 +6,9 @@ public class Smartphone extends Mobile{
 		
 		System.out.println("Using internet from smartphone");
 	}
+	
+	public void calling() {
+		System.out.println("Calling from smartphone");
+	}
 
 }

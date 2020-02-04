@@ -22,3 +22,13 @@ public class User {
 	}
 
 }
+
+//JAVA supports multilevel inheritance but not multiple inheritance.
+//to do multiple inheritance in java we need interface
+
+
+
+
+//polymorphism can be achieved by using overloading and overridding
+//since overloading is done at compile time it is static polymorphism
+//function overriding is dynamic polymorphism
