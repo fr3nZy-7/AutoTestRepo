@@ -24,3 +24,10 @@ public class Function3 {
 	}
 
 }
+
+
+/*
+ * method overloading can only be achieve when the parameter are
+ * changed/increased/decrease it will not happen if we change its access
+ * modifier/return type/ static or non static
+ */
