@@ -12,8 +12,13 @@ public class Function1 {
 
 	}
 
-	public static void sum() {
-
+	public static void sum()  {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			
+			e.printStackTrace();
+		}
 		int a = 10;
 		int b = 20;
 
