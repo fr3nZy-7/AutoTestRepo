@@ -73,6 +73,7 @@ public class StringFunction {
 		for (String b : arr2) {
 			count++;
 		}
+		
 
 		System.out.println(count - 1);
 		 
