@@ -2,7 +2,7 @@ package exceptionHandling;
 
 import constructor.Car;
 
-public class ExceptionHandling3 {
+public class ExceptionHandling4 {
 	
 	public static Car car;
 	
@@ -15,13 +15,15 @@ public class ExceptionHandling3 {
 			
 			String str = "Amey";		
 
-			System.out.println(str.charAt(6));
+		//	System.out.println(str.charAt(6));
 			
-			car.features();
+		//	car.features();
 
 		} catch (Exception e) {
 			System.out.println(e.getMessage()); 
 												
+		}finally {
+			System.out.println("Executing finally block");
 		}
 
 	}
