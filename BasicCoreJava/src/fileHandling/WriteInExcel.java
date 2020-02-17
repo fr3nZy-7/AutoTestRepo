@@ -32,12 +32,13 @@ public class WriteInExcel {
 			cell=row.createCell(3);
 		}
 		
-		cell.setCellValue("Amey");
+		cell.setCellValue("Tambe");
 		
 		FileOutputStream file2 = new FileOutputStream("C:\\AutoTestRepo\\AutoTestRepo\\BasicCoreJava\\src\\fileHandling\\TestData.xls");
 		
 		wb.write(file2);
 		
+		wb.close();
 
 	}
 
