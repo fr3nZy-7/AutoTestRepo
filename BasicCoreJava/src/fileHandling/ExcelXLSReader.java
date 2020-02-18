@@ -11,9 +11,9 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
 public class ExcelXLSReader {
 
-	final FileInputStream file = new FileInputStream(
-			"C:\\AutoTestRepo\\AutoTestRepo\\BasicCoreJava\\src\\fileHandling\\TestData.xls");
-
+	FileInputStream file;// = new FileInputStream("C:\\AutoTestRepo\\AutoTestRepo\\BasicCoreJava\\src\\fileHandling\\TestData.xls");
+						// just declaring the referce will do, 
+						//we can use the constructor to get path abd sheet name and initialise file and sheet object
 	HSSFWorkbook wb = new HSSFWorkbook(file);
 
 	HSSFSheet sheet;// = wb.getSheet("Sheet1");
