@@ -32,3 +32,8 @@ public class User {
 //polymorphism can be achieved by using overloading and overridding
 //since overloading is done at compile time it is static polymorphism
 //function overriding is dynamic polymorphism
+
+
+// when we create object of child class then its parent class constructor gets invoked first, then the child class.
+//in this case when we create object of smartphone, first constructor of telephone will get called , then mobile and then smartphone.
+//all three will be invoked in the above sequence 
