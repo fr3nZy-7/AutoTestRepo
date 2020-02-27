@@ -20,7 +20,7 @@ public class HandleDropDown {
 		
 		automobile.click();
 		
-		WebElement make = dr.findElement(By.xpath("//select[@id='make']"));
+	//	WebElement make = dr.findElement(By.xpath("//select[@id='make']"));
 		
 		//make.click();
 		//make.sendKeys("BMW");
