@@ -102,7 +102,7 @@ public class NavigateSampleApp {
 		
 	//	WebElement hobby = dr.findElement(By.xpath("//input[@id='speeding']"));
 		
-	//	hobby.click();  // his code was not working
+	//	hobby.click();  // this code was not working
 		
 		dr.findElement(By.xpath("//label[text()=' Speeding']")).click();
 		
