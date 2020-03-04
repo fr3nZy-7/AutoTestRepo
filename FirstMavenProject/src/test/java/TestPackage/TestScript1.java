@@ -1,0 +1,33 @@
+package TestPackage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class TestScript1 {
+	
+	WebDriver dr;
+	
+	@Test
+	public void test1() {
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\AutoTest Drivers\\chromedriver.exe");
+		dr = new ChromeDriver();
+		dr.manage().window().maximize();
+		
+		dr.get("http://sampleapp.tricentis.com/101/");
+	}
+	
+	@Test
+	public void test2() {
+		
+		System.out.println("Test 2");
+	}
+	
+	@Test
+	public void test3() {
+		
+		System.out.println("Test 3");		
+	}
+
+}

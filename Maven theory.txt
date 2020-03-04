@@ -1,0 +1,6 @@
+Maven theroy -
+
+pom.xml contains dependencies and a plugin called maven surefire
+
+from a testing prespective it is the most importat part of the pom.xml
+
