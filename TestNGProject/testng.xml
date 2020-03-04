@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Automobile Test">
+    <classes>
+		<class name="Automobile.AutomobileVehicleData"/>
+		<class name="Automobile.AutomobileInsurantData"/>    
+		<class name="Automobile.AutomobileProductData"/>    
+		<class name="Automobile.AutomobilePricingOption"/>    
+    	<class name="Automobile.AutomobileSendQuote"/>
+    </classes>
+  </test> <!-- Test -->
+   
+  <test thread-count="5" name="Motorcycle Test">
+    <classes> 
+    	<class name="Motorcycle.MotorcycleVehicleData"/>
+    	<class name="Motorcycle.MotorcycleInsurantData"/>
+    	<class name="Motorcycle.MotorcycleProductData"/>
+    	<class name="Motorcycle.MotorcyclePricingOption"/>
+    	<class name="Motorcycle.MotorcycleSendQuote"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Truck Test">
+    <classes> 
+    	<class name="Truck.TruckVehicleData"/>
+    	<class name="Truck.TruckInsurantData"/>
+    	<class name="Truck.TruckProductData"/>
+      	<class name="Truck.TruckPricingOption"/>
+      	<class name="Truck.TruckSendQuote"/>
+    </classes>
+  </test> <!-- Test -->
+      
+  <test thread-count="5" name="Camper Test">
+    <classes>	
+    	<class name="Camper.CamperVehicleData"/>
+    	<class name="Camper.CamperInsurantData"/>
+    	<class name="Camper.CamperProductData"/>
+    	<class name="Camper.CamperPricingOption"/>      
+      	<class name="Camper.CamperSendQuote"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
