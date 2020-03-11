@@ -1,0 +1,17 @@
+API testing theory
+
+verbs / methods
+- GET - get method gives info
+- POST - post method adds new record, PUT can also add a new record
+- PUT - Put updates existing records
+- DELETE - delete deletes a record
+
+
+Before testing API we will be given a collection and a doc file. 
+
+Doc file will tell us what is to be tested and how the collection needs to be used/tested.
+
+A collection is a file that is a collection of end points/API/Request to be tested.
+
+
+

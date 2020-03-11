@@ -15,10 +15,10 @@ public class RobotClass {
 	
 	public static void main(String[] args) throws InterruptedException, AWTException 
 	{
-		System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\AutoTest Drivers\\chromedriver.exe");
 		ChromeDriver dr= new ChromeDriver();
 		dr.manage().window().maximize();	
-		dr.get("file:///D:/Practice.html");
+		dr.get("file:///C://Users//admin//Downloads//Practice.html");
 		
 		
 		dr.findElement(By.id("Anand_file")).click();
@@ -26,7 +26,7 @@ public class RobotClass {
 		
 		Robot robot= new Robot();
 		
-		StringSelection cb = new StringSelection("D:\\Resume\\Anand_Bhayre_Automation testing CV_1.doc");
+		StringSelection cb = new StringSelection("C:\\Users\\admin\\Downloads\\Tricentis_Insurance_Quote.pdf");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(cb,null);
 
 		Thread.sleep(3000);		

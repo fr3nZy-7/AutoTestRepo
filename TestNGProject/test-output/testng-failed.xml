@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test depends on method feature(failed)">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="basicTestNGAnnotations.DependsonMethod">
+      <class name="basicTestNGAnnotations.AssertAnnotation">
         <methods>
-          <include name="login"/>
-          <include name="verifyHomepage"/>
-          <include name="logout"/>
+          <include name="tes1" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- basicTestNGAnnotations.DependsonMethod -->
+      </class> <!-- basicTestNGAnnotations.AssertAnnotation -->
     </classes>
-  </test> <!-- Test depends on method feature(failed) -->
-  <test thread-count="5" name="Test priority feature and depends on method(failed)">
-    <classes>
-      <class name="basicTestNGAnnotations.DependsonMethod">
-        <methods>
-          <include name="login"/>
-          <include name="verifyHomepage"/>
-          <include name="logout"/>
-        </methods>
-      </class> <!-- basicTestNGAnnotations.DependsonMethod -->
-    </classes>
-  </test> <!-- Test priority feature and depends on method(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
