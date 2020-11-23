@@ -12,6 +12,8 @@ public class BankUser {
 		bank.savingAccount();
 		
 		
+		bank.demonitization();
+		
 		
 		bank = new HDFC();
 		

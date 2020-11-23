@@ -10,7 +10,7 @@ public class ExceptionHandling2 {
 
 		try {
 			System.out.println(10 / 2);   // one try block for multiple catch blocks
-										 //when line 8 fails, line 10 and 12 will not be executed
+										 //when line 12 fails, line 14 and 16 will not be executed
 			String str = "Amey";		// control will directly go to the relevant catch block of the exception
 
 			System.out.println(str.charAt(2));

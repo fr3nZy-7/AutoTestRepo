@@ -6,7 +6,9 @@ public class NonStaticFunction {
 
 		NonStaticFunction ref = new NonStaticFunction();
 		
-		int s= ref.sum(10, 20);
+		//int s= ref.sum(10, 20);
+		
+		int s=NonStaticFunction.sum(5, 6);
 		
 		System.out.println(s);
 		
@@ -19,7 +21,7 @@ public class NonStaticFunction {
 
 	}
 	
-	public int sum(int a, int b) {
+	public static int sum(int a, int b) {
 		return a+b;
 	}
 

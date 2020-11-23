@@ -15,7 +15,7 @@ public class ExceptionHandling3 {
 			
 			String str = "Amey";		
 
-			System.out.println(str.charAt(6));
+			System.out.println(str.charAt(2));
 			
 			car.features();
 
