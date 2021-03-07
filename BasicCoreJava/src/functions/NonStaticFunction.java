@@ -17,6 +17,10 @@ public class NonStaticFunction {
 		//to call a non static function or variable , user has to create an object of the class
 		//where the variable/fucntion is defined
 		//object is an instance of a class
+		//static variable, fucntion is one copy per class. 
+		//non static variable and methods are stored for each object instance
+		//therefore to call non static variables, methods we need object of the class.
+		//to call static variables / methods we do not need object of a class
 		
 
 	}

@@ -19,7 +19,7 @@ List (Interface)			Set(interface)
 
 */
 
-//Object class is the super class of all th classes in java
+//Object class is the super class of all the classes in java
 
 /*
 
